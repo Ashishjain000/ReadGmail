@@ -13,7 +13,7 @@ using System.Web;  using System.Xml;
 namespace ReadEmails
 {
 	public class Pop3Client : IDisposable
-	{
+	{ 
 		public string Host { get; protected set; }
 		public int Port { get; protected set; }
 		public string Email { get; protected set; }
